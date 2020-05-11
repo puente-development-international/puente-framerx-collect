@@ -1,0 +1,16 @@
+{
+	"framer": {
+		"id": "6e002fe2-e7b3-414c-8540-8bf20b5db176"
+	},
+	"peerDependencies": {
+		"framer": "^1"
+	},
+	"author": "Hope Tambala",
+	"dependencies": {
+		"@framer/benjamin.icon-generator": "^1.21.0",
+		"@framer/benjamin.input": "^1.5.0",
+		"@framer/charliewilliams.framer-base-kit": "^1.0.0",
+		"@framer/material-ui.material-ui": "^1.1.0",
+		"@framer/tishogeorgiev.switch": "^1.17.0"
+	}
+}
