@@ -266,6 +266,21 @@ const packages = {}
                     return packageInfo
                 }
 
+                packages["@framer/alnikitin.ant-components"] = () => {
+                    var packageInfo = {}
+                    var designJson
+                    try {
+                        packageInfo = __webpack_require__(/*! framer-package-loader!@framer/alnikitin.ant-components */ "framer-package-loader.js!./node_modules/@framer/alnikitin.ant-components/build/index.js")
+                        designJson = __webpack_require__(/*! ./designDependencies.js */ "./designDependencies.js")["@framer/alnikitin.ant-components"]
+                    } catch (e) {
+                        console.log(e)
+                    }
+                    packageInfo.__framer__ = packageInfo.__framer__ || {}
+                    packageInfo.__framer__.packageJson = {"main":"build/index.js","license":"MIT","devDependencies":{"@types/react":"^16.0.31","framer":"^0.8.0"},"peerDependencies":{"framer":"^0.8.0","react":"^16.3.0","react-dom":"^16.3.0"},"framer":{"id":"48d01829-8df9-4321-9c54-b49071366897","displayName":"Ant Components"},"author":"Alexey Nikitin","keywords":["interactive","form","input","checkbox","radio","button","icons","ant","ui"],"dependencies":{"antd":"^3.9.2"},"name":"@framer/alnikitin.ant-components","version":"1.2.0"}
+                    packageInfo.__framer__.packageJson.design = designJson
+                    return packageInfo
+                }
+
                 packages["@framer/benjamin.icon-generator"] = () => {
                     var packageInfo = {}
                     var designJson
@@ -355,7 +370,7 @@ exports.__framer__ = packageInfo
 /*! exports provided: framer, peerDependencies, author, dependencies, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"framer\":{\"id\":\"6e002fe2-e7b3-414c-8540-8bf20b5db176\"},\"peerDependencies\":{\"framer\":\"^1\"},\"author\":\"Hope Tambala\",\"dependencies\":{\"@framer/benjamin.icon-generator\":\"^1.21.0\",\"@framer/benjamin.input\":\"^1.5.0\",\"@framer/charliewilliams.framer-base-kit\":\"^1.0.0\",\"@framer/material-ui.material-ui\":\"^1.1.0\",\"@framer/tishogeorgiev.switch\":\"^1.17.0\"}}");
+module.exports = JSON.parse("{\"framer\":{\"id\":\"6e002fe2-e7b3-414c-8540-8bf20b5db176\"},\"peerDependencies\":{\"framer\":\"^1\"},\"author\":\"Hope Tambala\",\"dependencies\":{\"@framer/alnikitin.ant-components\":\"^1.2.0\",\"@framer/benjamin.icon-generator\":\"^1.21.0\",\"@framer/benjamin.input\":\"^1.5.0\",\"@framer/charliewilliams.framer-base-kit\":\"^1.0.0\",\"@framer/material-ui.material-ui\":\"^1.1.0\",\"@framer/tishogeorgiev.switch\":\"^1.17.0\"}}");
 
 /***/ }),
 

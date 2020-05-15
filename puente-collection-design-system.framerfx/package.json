@@ -7,6 +7,7 @@
 	},
 	"author": "Hope Tambala",
 	"dependencies": {
+		"@framer/alnikitin.ant-components": "^1.2.0",
 		"@framer/benjamin.icon-generator": "^1.21.0",
 		"@framer/benjamin.input": "^1.5.0",
 		"@framer/charliewilliams.framer-base-kit": "^1.0.0",
