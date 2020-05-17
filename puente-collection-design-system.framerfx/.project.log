@@ -332,3 +332,5 @@
 [2020-05-17 01:22:48.8610] - DEBUG - [Save session: 24] Completed waitUsingRecursiveRunLoop
 [2020-05-17 01:22:48.8630] - INFO - Marking changed: false
 [2020-05-17 01:22:48.8690] - DEBUG - [Save session: 24] Completed super.save
+[2020-05-17 01:23:34.8520] - INFO - writing standalone output /Users/hopetambala/Documents/Puente/UX/Design - Mobile/01_Hifidelity/puente-framerx-collect/deployable-prototype
+[2020-05-17 01:23:35.7400] - INFO - standalone export done: /Users/hopetambala/Documents/Puente/UX/Design - Mobile/01_Hifidelity/puente-framerx-collect/deployable-prototype 251
