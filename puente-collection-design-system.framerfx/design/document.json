@@ -1518,72 +1518,6 @@
                     "fillColor" : "rgba(255,255,255,1)",
                     "fillEnabled" : true,
                     "fillImage" : "otMFZx4YuBto5pU0KGYb3rJunLQ.png",
-                    "fillImageOriginalName" : "goldClear.png",
-                    "fillImagePixelHeight" : 1024,
-                    "fillImagePixelWidth" : 1024,
-                    "fillImageResize" : "fill",
-                    "fillType" : "image",
-                    "guidesX" : [
-
-                    ],
-                    "guidesY" : [
-
-                    ],
-                    "height" : 97,
-                    "heightType" : 0,
-                    "id" : "EgOp09ADc",
-                    "intrinsicHeight" : 512,
-                    "intrinsicWidth" : 512,
-                    "isExternalMaster" : null,
-                    "isMaster" : false,
-                    "isTarget" : false,
-                    "left" : null,
-                    "locked" : false,
-                    "name" : "goldClear",
-                    "navigationTarget" : null,
-                    "navigationTransition" : "push",
-                    "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-                    "navigationTransitionDirection" : "left",
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "F54p9cl8R",
-                    "previewSettings" : null,
-                    "radius" : 0,
-                    "radiusBottomLeft" : 0,
-                    "radiusBottomRight" : 0,
-                    "radiusIsRelative" : false,
-                    "radiusPerCorner" : false,
-                    "radiusTopLeft" : 0,
-                    "radiusTopRight" : 0,
-                    "replicaInfo" : null,
-                    "right" : null,
-                    "rotation" : 0,
-                    "top" : 13,
-                    "visible" : true,
-                    "width" : 97,
-                    "widthType" : 0
-                  },
-                  {
-                    "__class" : "FrameNode",
-                    "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
-                    "bottom" : null,
-                    "centerAnchorX" : 0.5,
-                    "centerAnchorY" : 0.18981481481481483,
-                    "children" : [
-
-                    ],
-                    "clip" : false,
-                    "codeOverrideEnabled" : false,
-                    "constraintsLocked" : false,
-                    "deviceType" : null,
-                    "exportOptions" : [
-
-                    ],
-                    "fillColor" : "rgba(255,255,255,1)",
-                    "fillEnabled" : true,
-                    "fillImage" : "otMFZx4YuBto5pU0KGYb3rJunLQ.png",
                     "fillImageOriginalName" : "logo.png",
                     "fillImagePixelHeight" : 1024,
                     "fillImagePixelWidth" : 1024,
@@ -7962,8 +7896,8 @@
                       "LINEHEIGHT:1.2",
                       "SIZE:32",
                       "COLOR:hsl(0, 0%, 100%)",
-                      "FONT:__SF-UI-Display-Semibold__",
-                      "ALIGN:center"
+                      "ALIGN:center",
+                      "FONT:GF;Roboto-500"
                     ]
                   },
                   "depth" : 0,
@@ -7994,12 +7928,12 @@
                     {
                       "length" : 13,
                       "offset" : 0,
-                      "style" : "FONT:__SF-UI-Display-Semibold__"
+                      "style" : "ALIGN:center"
                     },
                     {
                       "length" : 13,
                       "offset" : 0,
-                      "style" : "ALIGN:center"
+                      "style" : "FONT:GF;Roboto-500"
                     }
                   ],
                   "key" : "3rel0",
@@ -8013,8 +7947,8 @@
                       "LINEHEIGHT:1.2",
                       "SIZE:32",
                       "COLOR:hsl(0, 0%, 100%)",
-                      "FONT:__SF-UI-Display-Semibold__",
-                      "ALIGN:center"
+                      "ALIGN:center",
+                      "FONT:GF;Roboto-500"
                     ]
                   },
                   "depth" : 0,
@@ -8045,12 +7979,12 @@
                     {
                       "length" : 7,
                       "offset" : 0,
-                      "style" : "FONT:__SF-UI-Display-Semibold__"
+                      "style" : "ALIGN:center"
                     },
                     {
                       "length" : 7,
                       "offset" : 0,
-                      "style" : "ALIGN:center"
+                      "style" : "FONT:GF;Roboto-500"
                     }
                   ],
                   "key" : "dh45i",
@@ -8064,7 +7998,7 @@
             },
             "top" : null,
             "visible" : true,
-            "width" : 211,
+            "width" : 212,
             "widthType" : 0
           },
           {
@@ -8073,7 +8007,7 @@
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "bottom" : 57,
-            "centerAnchorX" : 0.66800000000000004,
+            "centerAnchorX" : 0.67600000000000005,
             "centerAnchorY" : 0.67621145374449343,
             "children" : [
 
@@ -8127,7 +8061,7 @@
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
             "replicaInfo" : null,
-            "right" : 108,
+            "right" : 105,
             "rotation" : 0,
             "top" : null,
             "visible" : true,
