@@ -2245,7 +2245,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.14242878560719641,
+            "centerAnchorY" : 0.15292353823088456,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
@@ -2286,10 +2286,10 @@
                     "emptyStyle" : [
                       "LETTERSPACING:0",
                       "LINEHEIGHT:1.2",
-                      "ALIGN:left",
                       "SIZE:14",
-                      "FONT:__SF-UI-Display-Semibold-Italic__",
-                      "COLOR:hsl(0, 0%, 0%)"
+                      "COLOR:hsl(0, 0%, 0%)",
+                      "FONT:GF;Roboto Slab-700",
+                      "ALIGN:center"
                     ]
                   },
                   "depth" : 0,
@@ -2310,22 +2310,22 @@
                     {
                       "length" : 39,
                       "offset" : 0,
-                      "style" : "ALIGN:left"
-                    },
-                    {
-                      "length" : 39,
-                      "offset" : 0,
                       "style" : "SIZE:14"
                     },
                     {
                       "length" : 39,
                       "offset" : 0,
-                      "style" : "FONT:__SF-UI-Display-Semibold-Italic__"
+                      "style" : "COLOR:hsl(0, 0%, 0%)"
                     },
                     {
                       "length" : 39,
                       "offset" : 0,
-                      "style" : "COLOR:hsl(0, 0%, 0%)"
+                      "style" : "FONT:GF;Roboto Slab-700"
+                    },
+                    {
+                      "length" : 39,
+                      "offset" : 0,
+                      "style" : "ALIGN:center"
                     }
                   ],
                   "key" : "3rel0",
@@ -2334,11 +2334,11 @@
                 }
               ],
               "cached" : {
-                "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"3rel0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3rel0-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-SemiboldItalic&quot;, &quot;SFProDisplay-SemiboldItalic&quot;, &quot;SFUIDisplay-SemiboldItalic&quot;, &quot;.SFUIDisplay-SemiboldItalic&quot;, &quot;SF Pro Display&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 0%);font-size:14px;letter-spacing:0px;line-height:1.2;font-weight:599;font-style:italic\"><span data-text=\"true\">The Bridge between Data and Development<\/span><\/span><\/div><\/div>",
+                "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"3rel0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3rel0-0-0\" style=\"tab-size:4;font-family:&quot;Roboto Slab&quot;, serif;-webkit-text-fill-color:hsl(0, 0%, 0%);font-size:14px;letter-spacing:0px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">The Bridge between Data and Development<\/span><\/span><\/div><\/div>",
                 "os" : "macos 10_14 framerx",
                 "size" : {
                   "height" : 16,
-                  "width" : 273
+                  "width" : 287
                 },
                 "width" : 0
               },
@@ -2346,9 +2346,9 @@
 
               }
             },
-            "top" : 87,
+            "top" : 94,
             "visible" : true,
-            "width" : 273,
+            "width" : 287,
             "widthType" : 0
           }
         ],
@@ -6027,9 +6027,9 @@
             "locked" : false,
             "name" : "Patient Identification",
             "navigationTarget" : "khofm04zA",
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
+            "navigationTransition" : "overlay",
+            "navigationTransitionBackdropColor" : "rgba(4, 4, 15, 0.1)",
+            "navigationTransitionDirection" : "up",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "vuP8EQ2k6",
@@ -7032,12 +7032,12 @@
                     {
                       "data" : {
                         "emptyStyle" : [
-                          "LETTERSPACING:0",
-                          "LINEHEIGHT:1.2",
-                          "FONT:__SF-UI-Display-Heavy__",
-                          "SIZE:32",
                           "ALIGN:left",
-                          "COLOR:hsl(0, 0%, 100%)"
+                          "COLOR:hsl(0, 0%, 100%)",
+                          "FONT:GF;Roboto-900",
+                          "SIZE:32",
+                          "LETTERSPACING:0.7",
+                          "LINEHEIGHT:1.2"
                         ]
                       },
                       "depth" : 0,
@@ -7048,17 +7048,17 @@
                         {
                           "length" : 6,
                           "offset" : 0,
-                          "style" : "LETTERSPACING:0"
+                          "style" : "ALIGN:left"
                         },
                         {
                           "length" : 6,
                           "offset" : 0,
-                          "style" : "LINEHEIGHT:1.2"
+                          "style" : "COLOR:hsl(0, 0%, 100%)"
                         },
                         {
                           "length" : 6,
                           "offset" : 0,
-                          "style" : "FONT:__SF-UI-Display-Heavy__"
+                          "style" : "FONT:GF;Roboto-900"
                         },
                         {
                           "length" : 6,
@@ -7068,12 +7068,12 @@
                         {
                           "length" : 6,
                           "offset" : 0,
-                          "style" : "ALIGN:left"
+                          "style" : "LETTERSPACING:0.7"
                         },
                         {
                           "length" : 6,
                           "offset" : 0,
-                          "style" : "COLOR:hsl(0, 0%, 100%)"
+                          "style" : "LINEHEIGHT:1.2"
                         }
                       ],
                       "key" : "3rel0",
@@ -7082,11 +7082,11 @@
                     }
                   ],
                   "cached" : {
-                    "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"3rel0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3rel0-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Heavy&quot;, &quot;SFProDisplay-Heavy&quot;, &quot;SFUIDisplay-Heavy&quot;, &quot;.SFUIDisplay-Heavy&quot;, &quot;SF Pro Display&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:32px;letter-spacing:0px;line-height:1.2;font-weight:799\"><span data-text=\"true\">PUENTE<\/span><\/span><\/div><\/div>",
+                    "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"3rel0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3rel0-0-0\" style=\"tab-size:4;font-family:&quot;Roboto&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:32px;letter-spacing:0.7px;line-height:1.2;font-weight:900;font-style:normal\"><span data-text=\"true\">PUENTE<\/span><\/span><\/div><\/div>",
                     "os" : "macos 10_14 framerx",
                     "size" : {
                       "height" : 38,
-                      "width" : 125
+                      "width" : 126
                     },
                     "width" : 0
                   },
@@ -7096,7 +7096,7 @@
                 },
                 "top" : 0,
                 "visible" : true,
-                "width" : 125,
+                "width" : 126,
                 "widthType" : 0
               }
             ],
@@ -35973,12 +35973,79 @@
       },
       {
         "__class" : "FrameNode",
-        "aspectRatio" : null,
+        "aspectRatio" : 1,
         "blendingEnabled" : 0,
         "blendingMode" : "normal",
         "bottom" : null,
         "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
+        "centerAnchorY" : 0.34765625,
+        "children" : [
+
+        ],
+        "clip" : false,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : true,
+        "fillImage" : "QmEKzsN1wUypl6nFiI786ZxrvSU.png",
+        "fillImageOriginalName" : "vaccine-icon.png",
+        "fillImagePixelHeight" : 512,
+        "fillImagePixelWidth" : 512,
+        "fillImageResize" : "fill",
+        "fillType" : "image",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 256,
+        "heightType" : 0,
+        "id" : "mPnqdgf72",
+        "intrinsicHeight" : 256,
+        "intrinsicWidth" : 256,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 4452,
+        "locked" : false,
+        "name" : "vaccine_icon",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalFilename" : "vaccine-icon.png",
+        "originalid" : null,
+        "parentid" : "OvBCvJyzS",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 873,
+        "visible" : true,
+        "width" : 256,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 1.1120000000000001,
+        "centerAnchorY" : 1.1834862385321101,
         "children" : [
           {
             "__class" : "TextNode",
@@ -36310,7 +36377,7 @@
         "guidesY" : [
 
         ],
-        "height" : 521,
+        "height" : 532,
         "heightType" : 0,
         "id" : "khofm04zA",
         "intrinsicHeight" : null,
@@ -36339,76 +36406,9 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 536,
+        "top" : 580,
         "visible" : true,
         "width" : 330,
-        "widthType" : 0
-      },
-      {
-        "__class" : "FrameNode",
-        "aspectRatio" : 1,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0.34765625,
-        "children" : [
-
-        ],
-        "clip" : false,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "deviceType" : null,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : true,
-        "fillImage" : "QmEKzsN1wUypl6nFiI786ZxrvSU.png",
-        "fillImageOriginalName" : "vaccine-icon.png",
-        "fillImagePixelHeight" : 512,
-        "fillImagePixelWidth" : 512,
-        "fillImageResize" : "fill",
-        "fillType" : "image",
-        "guidesX" : [
-
-        ],
-        "guidesY" : [
-
-        ],
-        "height" : 256,
-        "heightType" : 0,
-        "id" : "mPnqdgf72",
-        "intrinsicHeight" : 256,
-        "intrinsicWidth" : 256,
-        "isExternalMaster" : null,
-        "isMaster" : false,
-        "isTarget" : false,
-        "left" : 4452,
-        "locked" : false,
-        "name" : "vaccine_icon",
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
-        "opacity" : 1,
-        "originalFilename" : "vaccine-icon.png",
-        "originalid" : null,
-        "parentid" : "OvBCvJyzS",
-        "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "replicaInfo" : null,
-        "right" : null,
-        "rotation" : 0,
-        "top" : 873,
-        "visible" : true,
-        "width" : 256,
         "widthType" : 0
       }
     ],
